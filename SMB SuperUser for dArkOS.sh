@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =======================================================
-# SMB SuperUser Settings for dArkOSRE
+# SMB SuperUser Settings for dArkOS
 # =======================================================
 
 # -------------------------------------------------------
@@ -119,7 +119,7 @@ cat <<'EOF' > "$SMB"
    smb2 leases = no
 
 # Set netbios name to change the device hostname for Samba shares  
-#   netbios name = MYDEVICE
+   netbios name = R36H_PM
 
 #======================= Share Definitions =======================
 
